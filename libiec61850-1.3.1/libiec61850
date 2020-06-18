@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <Project name="IEC61850">
+    <Project name="iec61850">
         <Folder name="libiec61850-1.3.1">
             <Folder name="config">
                 <File name="libiec61850-1.3.1\config\stack_config.h" />
@@ -966,8 +966,78 @@
             </Folder>
             <Folder name="tools">
                 <Folder name="model_generator">
+                    <Folder name=".idea">
+                        <File name="libiec61850-1.3.1\tools\model_generator\.idea\.gitignore" />
+                        <File name="libiec61850-1.3.1\tools\model_generator\.idea\misc.xml" />
+                        <File name="libiec61850-1.3.1\tools\model_generator\.idea\modules.xml" />
+                        <File name="libiec61850-1.3.1\tools\model_generator\.idea\workspace.xml" />
+                    </Folder>
                     <Folder name=".settings">
                         <File name="libiec61850-1.3.1\tools\model_generator\.settings\org.eclipse.jdt.core.prefs" />
+                    </Folder>
+                    <Folder name="bin">
+                        <Folder name="com">
+                            <Folder name="libiec61850">
+                                <Folder name="scl">
+                                    <Folder name="communication">
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\communication\Communication.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\communication\ConnectedAP.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\communication\GSE.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\communication\PhyComAddress.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\communication\SMV.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\communication\SubNetwork.class" />
+                                    </Folder>
+                                    <Folder name="model">
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\AccessPoint.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\AttributeType.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\Authentication.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\DataAttribute.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\DataModelNode.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\DataModelValue.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\DataObject.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\DataSet.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\FunctionalConstraint.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\FunctionalConstraintData.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\GSEControl.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\IED.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\Log.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\LogControl.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\LogicalDevice.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\LogicalNode.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\OptionFields.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\ReportControlBlock.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\RptEnabled.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\SampledValueControl.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\Server.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\SettingControl.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\SmvOpts.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\model\TriggerOptions.class" />
+                                    </Folder>
+                                    <Folder name="types">
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\DataAttributeType.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\DataObjectType.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\EnumerationType.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\EnumerationValue.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\IllegalValueException.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\LogicalNodeType.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\SclType.class" />
+                                        <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\types\TypeDeclarations.class" />
+                                    </Folder>
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\DataAttributeDefinition.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\DataObjectDefinition.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\ParserUtils.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\SclParser$1.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\SclParser.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\scl\SclParserException.class" />
+                                </Folder>
+                                <Folder name="tools">
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\tools\DynamicCodeGenerator.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\tools\DynamicModelGenerator.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\tools\ModelViewer.class" />
+                                    <File name="libiec61850-1.3.1\tools\model_generator\bin\com\libiec61850\tools\StaticModelGenerator.class" />
+                                </Folder>
+                            </Folder>
+                        </Folder>
                     </Folder>
                     <Folder name="src">
                         <Folder name="com">
@@ -1050,10 +1120,14 @@
                     <File name="libiec61850-1.3.1\tools\model_generator\manifest-modelviewer.mf" />
                     <File name="libiec61850-1.3.1\tools\model_generator\manifest.mf" />
                     <File name="libiec61850-1.3.1\tools\model_generator\modelviewer.jar" />
+                    <File name="libiec61850-1.3.1\tools\model_generator\model_generator.iml" />
+                    <File name="libiec61850-1.3.1\tools\model_generator\PL1101.icd" />
                     <File name="libiec61850-1.3.1\tools\model_generator\sampleModel.icd" />
                     <File name="libiec61850-1.3.1\tools\model_generator\sampleModel_errors.icd" />
                     <File name="libiec61850-1.3.1\tools\model_generator\sampleModel_with_dataset.icd" />
                     <File name="libiec61850-1.3.1\tools\model_generator\simpleIO_direct_control_goose.scd" />
+                    <File name="libiec61850-1.3.1\tools\model_generator\static_model.c" />
+                    <File name="libiec61850-1.3.1\tools\model_generator\static_model.h" />
                 </Folder>
             </Folder>
             <File name="libiec61850-1.3.1\.gitignore" />
@@ -1063,7 +1137,8 @@
             <File name="libiec61850-1.3.1\COPYING" />
             <File name="libiec61850-1.3.1\Makefile" />
             <File name="libiec61850-1.3.1\README.md" />
-            <File name="notes.txt" />
         </Folder>
+        <File name="libiec61850" />
+        <File name="notes.txt" />
     </Project>
 </NotepadPlus>
